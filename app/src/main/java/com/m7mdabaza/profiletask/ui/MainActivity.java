@@ -1,32 +1,18 @@
 package com.m7mdabaza.profiletask.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.imageview.ShapeableImageView;
-import com.m7mdabaza.profiletask.PostsRecyclerAdapter;
+import com.m7mdabaza.profiletask.adapters.PostsRecyclerAdapter;
 import com.m7mdabaza.profiletask.R;
-import com.m7mdabaza.profiletask.pojo.ImagesPosts;
-import com.m7mdabaza.profiletask.pojo.RecycleHomeModel;
-import com.m7mdabaza.profiletask.retrofit.APIs;
-import com.m7mdabaza.profiletask.retrofit.ApisObjectResponse;
 import com.squareup.picasso.Picasso;
-
-import java.util.ArrayList;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 

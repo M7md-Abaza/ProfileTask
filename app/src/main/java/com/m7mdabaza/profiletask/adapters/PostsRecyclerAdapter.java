@@ -1,20 +1,18 @@
-package com.m7mdabaza.profiletask;
+package com.m7mdabaza.profiletask.adapters;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityOptions;
-import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.imageview.ShapeableImageView;
+import com.m7mdabaza.profiletask.R;
 import com.m7mdabaza.profiletask.pojo.RecycleHomeModel;
 import com.m7mdabaza.profiletask.ui.LargeImageActivity;
 import com.m7mdabaza.profiletask.ui.MainActivity;
@@ -43,7 +41,7 @@ public class PostsRecyclerAdapter extends RecyclerView.Adapter<PostsRecyclerAdap
         String title = recycleHomeModel.getTitle();
         String imageURL = recycleHomeModel.getImage();
         Picasso.get().load(imageURL).into(holder.postImage);
-        
+
         holder.itemView.setOnClickListener(view -> {
 
             Intent intent = new Intent(mContext, LargeImageActivity.class);
