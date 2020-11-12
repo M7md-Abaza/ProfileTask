@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProfileTask</string>
+    <string name="_100">100</string>
+    <string name="posts">Posts</string>
+    <string name="_1_5m">1.5M</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="_70">70</string>
+    <string name="bio">Mohamed Abaza , android developer, Mohamed Abaza , android developer, Mohamed Abaza</string>
+    <string name="location">Cairo, EG</string>
+    <string name="profile_name">Profile Name</string>
+</resources>
